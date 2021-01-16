@@ -1,0 +1,62 @@
+<div class="card">
+  <img style="height: 300px; object-fit: cover;" src="https://www.qantas.com/content/travelinsider/en/explore/asia/indonesia/bali/what-not-to-do-in-bali/_jcr_content/parsysTop/hero.img.full.medium.jpg/1543366401968.jpg" alt="" class="card-img-top">
+  <div class="container mt-4">
+
+    <div class="row">
+    
+      <div class="col-8">
+        <div class="bg-light p-4">
+          <h1><%= @flat.name %></h1>
+          <p><%= @flat.address %></p>
+        </div>
+        <br>
+        <div class="bg-light p-4">
+          <h3>A bit more about this flat...</h3>
+          <p><strong><%= @flat.description %></strong></p>
+        </div>
+        <br>
+        <div class="bg-light p-4">
+          <h3>Details</h3>
+          <i class="fas fa-euro-sign"></i>
+          <strong><%= @flat.price_per_night %></strong>
+          <i class="fas fa-user-friends"></i>
+          <strong><%= @flat.number_of_guests %></strong>
+        </div>
+      </div>
+
+      <div class="col-4">
+
+        <div class="form-group p-2 bg-light">
+          <div class="input-group mb-2 mr-sm-2">
+            <div class="input-group-prepend">
+              <div class="input-group-text">From:</div>
+            </div>
+            <input type="text" class="form-control" placeholder="Username">
+          </div>
+
+          <div class="input-group mb-2 mr-sm-2">
+            <div class="input-group-prepend">
+              <div class="input-group-text">To:</div>
+            </div>
+            <input type="text" class="form-control" placeholder="Username">
+          </div>
+          <button class="btn btn-success col-12">Book</button>
+        </div>
+
+        <div class="footer">
+          <div class="footer-copyright">
+            Share
+          </div>
+          <div class="footer-links">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div> 
+
+      </div>     
+    </div>
+
+  </div>
+</div>
